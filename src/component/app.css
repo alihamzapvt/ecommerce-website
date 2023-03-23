@@ -1,0 +1,101 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.contaner {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 5px;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+.contaners {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+
+nav {
+  height: 12vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.main_div {
+  background-color: #808080;
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.ul-list-item div {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.ul-list-item div {
+  padding: 10px;
+  font-weight: 900;
+  cursor: pointer;
+  transition: color 1s;
+}
+.ul-list-item div:hover {
+  color: #ff8936;
+}
+.input_container input {
+  height: 38px;
+  width: 500px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+}
+.input_container {
+  display: flex;
+}
+/* .input_container{
+  border: 2px solid #ff8936 ;
+} */
+.input_container span {
+  height: 38px;
+  border: 1px solid white;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  background-color: #ff8936;
+  border: none;
+}
+.input_container select {
+  height: 38px;
+  border: none;
+  outline: none;
+}
+.location-country {
+  border: 1px solid black;
+}
+.location-country:hover {
+  border: 1px solid white;
+}
+.identification {
+  border: 1px solid black;
+}
+.identification:hover {
+  border: 1px solid white;
+}
+.display-product:hover {
+  box-shadow: 20px 20px 50px 10px #ffffff inset;
+  /* box-shadow: 20px 20px 50px  #FFFFFF ; */
+}
+#remove-cart:hover {
+  /* background-color: #f76905; */
+  background-color: #c5c0bd;
+}
+.login-btn:hover {
+  background-color: #f86a04;
+}
